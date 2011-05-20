@@ -1,0 +1,8 @@
+Change-Id: I4ed66571ebeac7857847b06dd5e456c012f0b68a
+Code-Review+2: Jean-Baptiste Queru <jbq@google.com>
+Verified+1: Jean-Baptiste Queru <jbq@google.com>
+Submitted-by: Jean-Baptiste Queru <jbq@google.com>
+Submitted-at: Wed, 18 Mar 2009 17:58:58 -0700
+Reviewed-on: https://review.source.android.com/9268
+Project: platform/external/giflib
+Branch: refs/heads/master
