@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c4700952_81fa6a34",
+        "filename": "Android.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1010333
+      },
+      "writtenOn": "2015-08-21T17:22:36Z",
+      "side": 1,
+      "message": "are these new files needed given the apis we use? do they add to the size of the static library?",
+      "revId": "e189ac98c1d4e339fd0327aae046f908e22fa1bc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
