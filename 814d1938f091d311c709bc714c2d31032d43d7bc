@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "254d7687_1951b70b",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1043845
+      },
+      "writtenOn": "2015-12-10T23:34:39Z",
+      "side": 0,
+      "message": "jreck: You added both of the LOCAL_SDK_VERSION lines in this file (in different branches and then merge happened). I\u0027m assuming there wasn\u0027t a specific reason for supporting froyo.",
+      "revId": "814d1938f091d311c709bc714c2d31032d43d7bc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
