@@ -26,8 +26,8 @@ gif_lib_private.h - internal giflib routines and structures
 #define FILE_STATE_IMAGE    0x04
 #define FILE_STATE_READ     0x08
 
-#define IS_READABLE(Private)    (Private->FileState & FILE_STATE_READ)
-#define IS_WRITEABLE(Private)   (Private->FileState & FILE_STATE_WRITE)
+#define IS_READABLE(Private)    ((Private)->FileState & FILE_STATE_READ)
+#define IS_WRITEABLE(Private)   ((Private)->FileState & FILE_STATE_WRITE)
 
 typedef struct GifFilePrivateType {
     GifWord FileState, FileHandle,  /* Where all this data goes to! */

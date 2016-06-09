@@ -22,7 +22,7 @@ extern "C" {
 #include <stdbool.h>
 
 #define GIF_STAMP "GIFVER"          /* First chars in file - GIF stamp.  */
-#define GIF_STAMP_LEN sizeof(GIF_STAMP) - 1
+#define GIF_STAMP_LEN (sizeof(GIF_STAMP) - 1)
 #define GIF_VERSION_POS 3           /* Version first character in stamp. */
 #define GIF87_STAMP "GIF87a"        /* First chars in file - GIF stamp.  */
 #define GIF89_STAMP "GIF89a"        /* First chars in file - GIF stamp.  */
@@ -115,7 +115,7 @@ typedef struct GraphicsControlBlock {
     bool UserInputFlag;      /* User confirmation required before disposal */
     int DelayTime;           /* pre-display delay in 0.01sec units */
     int TransparentColor;    /* Palette index for transparency, -1 if none */
-#define NO_TRANSPARENT_COLOR	-1
+#define NO_TRANSPARENT_COLOR	(-1)
 } GraphicsControlBlock;
 
 /******************************************************************************
