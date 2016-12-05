@@ -1,0 +1,8 @@
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Dan Willemsen <dwillemsen@google.com>
+Verified+1: Colin Cross <ccross@android.com>
+Submitted-by: Colin Cross <ccross@android.com>
+Submitted-at: Mon, 05 Dec 2016 23:59:51 +0000
+Reviewed-on: https://android-review.googlesource.com/310344
+Project: platform/external/giflib
+Branch: refs/heads/master
