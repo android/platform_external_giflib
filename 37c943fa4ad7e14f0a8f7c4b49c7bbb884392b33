@@ -22,6 +22,30 @@
       },
       "revId": "37c943fa4ad7e14f0a8f7c4b49c7bbb884392b33",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b216eeb3_c5db729c",
+        "filename": "project.config",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1095291
+      },
+      "writtenOn": "2021-06-22T22:32:28Z",
+      "side": 1,
+      "message": "The users are in Android Maintainers now so this isn\u0027t needed.",
+      "parentUuid": "b945cb3f_017d356e",
+      "range": {
+        "startLine": 8,
+        "startChar": 34,
+        "endLine": 8,
+        "endChar": 68
+      },
+      "revId": "37c943fa4ad7e14f0a8f7c4b49c7bbb884392b33",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
